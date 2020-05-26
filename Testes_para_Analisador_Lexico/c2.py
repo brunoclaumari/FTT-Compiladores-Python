@@ -3,10 +3,10 @@ import re
 pascal_keys = ""
 pascal_code = ""
 
-with open("pascalkeys.txt", "r") as pkeys:
+with open('pascalkeys.txt', "r") as pkeys:
     pascal_keys = pkeys.read().split()
 
-with open("p1.pas", "r") as pkeys2:
+with open('p1.pas', "r") as pkeys2:
     pascal_code = pkeys2.read().lower().split(' ')
 
 lexemas = []
